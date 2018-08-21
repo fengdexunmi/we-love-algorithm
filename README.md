@@ -1,8 +1,7 @@
-# we-love-algorithm
+# We love algorithm
 
-# Day1
-## Array Rotation Problem
-数组旋转问题  
+## Day1 -- Array Rotation Problem
+数组旋转问题
 
 在Array进行Left Rotation就是将Array内每个元素向左移动一个位置。  
 例如，对于[1,2,3,4,5]执行步长为2的Left Rotation后结果为[3,4,5,1,2]。
