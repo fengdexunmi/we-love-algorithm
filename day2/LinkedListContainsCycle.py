@@ -12,6 +12,7 @@ class Node(object):
         self.data = data
         self.next = next_node
 
+
 """
 快指针和慢指针解决
 采用两个指针，一个快（每次移动两步）一个慢（每次移动一步）
