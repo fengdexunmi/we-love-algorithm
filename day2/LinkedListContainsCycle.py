@@ -1,3 +1,4 @@
+#-*- coding:utf-8 -*-
 """  
 判断链表是否环
 A linked list is said to contain a cycle if any node 
@@ -29,9 +30,32 @@ def has_cycle(head):
     return False
 
 
-""" 如果链表有环，找到环的入口 """
+""" 
+如果链表有环，找到环的入口 
+快慢指针相遇后，让慢指针从头开始遍历，快指针速度变成和慢指针一样
+再次相遇的点就是环的入口
+"""
 def find_start_of_cycle(head):
-    pass
+    if head is None:
+        return False
+    slow = fast = head
+    loopExist = False
+    
+    while fast and fast.next:
+        slow = slow.next
+        fast = fast.next.next
+        if slow == fast:
+            loopExist = True
+            break
+    
+    if loopExist == True:
+        slow = head
+        while slow != fast:
+            fast = fast.next
+            slow = slow.next
+        return slow.data
+
+    return False
 
 
 if __name__ == "__main__":
@@ -46,3 +70,4 @@ if __name__ == "__main__":
     node4.next = node5
     node5.next = node3
     print(has_cycle(node1))
+    print(find_start_of_cycle(node1))
