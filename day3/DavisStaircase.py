@@ -16,4 +16,4 @@ def stepPerms(n):
 
 
 if __name__ == "__main__":
-    print(stepPerms(5))        
+    print(stepPerms(5))      
