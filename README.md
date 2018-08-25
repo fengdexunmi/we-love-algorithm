@@ -2,12 +2,12 @@
 
 ## Day1
 Array Rotation Problem
-数组旋转问题
+数组旋转问题
 
 在Array进行Left Rotation就是将Array内每个元素向左移动一个位置。  
 例如，对于[1,2,3,4,5]执行步长为2的Left Rotation后结果为[3,4,5,1,2]。
 
-### Java实现
+**Java实现**
 ```Java
 /**
  * 列表左旋问题
@@ -78,7 +78,7 @@ public class ArrayLeftRotation {
 
 ```
 
-### Python实现
+**Python实现**
 ```Python
 #-*- coding:utf-8 -*-
 
@@ -106,14 +106,14 @@ if __name__ == "__main__":
     print(rotLeft(a, d))
 ```
 
-## Day2 
-判断链表中是否存在环，如果存在环，找到环的入口
+## Day2
+判断链表中是否存在环，如果存在环，找到环的入口
 
 
 ## Day3 
-- 冰淇淋店购买问题  `Ice Cream Parlor`  
+- 冰淇淋店购买问题  `Ice Cream Parlor`  
 Sunny 和 Johny 两个人要到冰淇淋店买冰淇淋。店里每次都有很多种口味，每种口味有自己的单价。他们俩一共带的钱总数为money，所有口味的单价组成一个列表是 cost。要求两个人必须将所带的钱消费完，买两种冰淇淋。假如每种冰淇淋在列表里从1开始标号，程序要打印出买的两种冰淇淋的标号（用空格分开）。
-Solution: [IceCremParlor.py](./day3/IceCreamParlor.py)
+Solution: [IceCremParlor.py](./day3/IceCreamParlor.py)
 
 - Davis' Staircase  
-Davis家楼梯有n级台阶，Davis每次只能爬1，2或者3级台阶，对于n级台阶，Davis有几种不同的爬法？
+Davis家楼梯有n级台阶，Davis每次只能爬1，2或者3级台阶，对于n级台阶，Davis有几种不同的爬法？
