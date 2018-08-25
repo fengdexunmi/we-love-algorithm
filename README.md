@@ -113,3 +113,7 @@ if __name__ == "__main__":
 ## Day3 
 - 冰淇淋店购买问题  `Ice Cream Parlor`  
 Sunny 和 Johny 两个人要到冰淇淋店买冰淇淋。店里每次都有很多种口味，每种口味有自己的单价。他们俩一共带的钱总数为money，所有口味的单价组成一个列表是 cost。要求两个人必须将所带的钱消费完，买两种冰淇淋。假如每种冰淇淋在列表里从1开始标号，程序要打印出买的两种冰淇淋的标号（用空格分开）。
+Solution: [IceCremParlor.py](./day3/IceCreamParlor.py)
+
+- Davis' Staircase  
+Davis家楼梯有n级台阶，Davis每次只能爬1，2或者3级台阶，对于n级台阶，Davis有几种不同的爬法？
