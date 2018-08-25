@@ -116,4 +116,5 @@ Sunny 和 Johny 两个人要到冰淇淋店买冰淇淋。店里每次都有很�
 Solution: [IceCremParlor.py](./day3/IceCreamParlor.py)
 
 - Davis' Staircase  
-Davis家楼梯有n级台阶，Davis每次只能爬1，2或者3级台阶，对于n级台阶，Davis有几种不同的爬法？
+Davis家楼梯有n级台阶，Davis每次只能爬1，2或者3级台阶，对于n级台阶，Davis有几种不同的爬法？  
+Solution: [DavisStaircase.py](./day3/DavisStaircase.py)
